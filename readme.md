@@ -16,7 +16,7 @@ The following AWS services form the backbone of our data platform:
 - **Amazon Athena**: Allows SQL querying directly on data stored in S3.
 - **Amazon Redshift**: Acts as our data warehouse solution for complex queries and aggregations.
 
-![Architecture Diagram](link-to-your-architecture-diagram.png)
+![image](https://github.com/brahma505/aws-glue-spark-ev-processing/assets/43395721/f9ceb3c7-c36c-406d-9971-973f2693982e)
 
 ## Dataset
 

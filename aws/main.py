@@ -1,9 +1,7 @@
 # main.py
 from pyspark.sql import SparkSession
 from transform import read_data, explode_data_array, define_schema, create_new_dataframe, cast_numeric_columns, save_data_to_s3
-from modules.reader import read_json
-from modules.transformer import add_new_column, filter_rows
-from modules.writer import write_to_parquet
+from writer import write_to_parquet
 
 def main():
     spark = SparkSession.builder \

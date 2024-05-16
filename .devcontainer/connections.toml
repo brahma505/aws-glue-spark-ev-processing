@@ -4,7 +4,7 @@
 [default]
 account = "myaccount"
 user = "myuser"
-password = "mypassword"
+password = "mypwd"
 role = "EV_ROLE"
 warehouse = "EV_WH"
 database = "EV_DB"
